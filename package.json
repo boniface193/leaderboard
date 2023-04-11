@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boniface193/my-portfolio.git"
+    "url": "git+https://github.com/boniface193/leaderboard.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/boniface193/my-portfolio/issues"
+    "url": "https://github.com/boniface193/leaderboard/issues"
   },
-  "homepage": "https://github.com/boniface193/my-portfolio#readme",
+  "homepage": "https://github.com/boniface193/leaderboard#readme",
   "dependencies": {
     "luxon": "^3.3.0"
   },
