@@ -1,9 +1,76 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: black;
+  font-family: sans-serif;
 }
 
 .container {
-  padding: 0 55px;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.col-6 {
+  padding: 0 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items {
+  align-items: center;
+}
+
+button {
+  border: none;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 10px;
+}
+
+.float-right {
+  float: right;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #9b9ca7;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 12px 5px;
+}
+
+ul li:nth-child(even) {
+  background-color: #9b9ca798;
+}
+
+.mx-3 {
+  margin: 0 12px;
+}
+
+.mr-3 {
+  margin-right: 12px;
 }

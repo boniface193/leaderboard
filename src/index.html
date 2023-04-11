@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
   <title>Leaderboard</title>
 </head>
 
@@ -16,23 +15,34 @@
     </header>
     <section class="row">
       <aside class="col-6">
-          <h3>Recent scores</h3>
-          <button>Refresh</button>
-          <ul>
-            <li>
-              first table
-            </li>`
-          </ul>
+        <div class="d-flex align-items">
+          <h3 class="mr-3">Recent scores</h3>
+          <button class="btn">Refresh</button>
+        </div>
+        <ul>
+          <li>
+            first table
+            <span>45</span>
+          </li>
+          <li>
+            first table
+            <span>45</span>
+          </li>
+          <li>
+            first table
+            <span>45</span>
+          </li>
+        </ul>
       </aside>
 
-      <aside>
+      <div class="col-6">
         <h3>Add your score</h3>
         <form action="">
           <input type="text" placeholder="Your name" name="yourname">
           <input type="number" placeholder="Your score" name="yourscore">
-          <button class="btn">Submit</button>
+          <button class="btn float-right">Submit</button>
         </form>
-      </aside>
+      </div>
 
     </section>
 
