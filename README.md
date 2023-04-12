@@ -56,6 +56,12 @@ After you're finished please remove all the comments and instructions!
 
 > In this activity I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features,  modules. I developed a first working version of the app following a wireframe, but without styling - just focus on functionality.
 
+> Created a new game using the API.
+Implemented the "Refresh" button that got all scores for the game created from the API (receiving data from the API and parsing the JSON).
+Implemented the form "Submit" button that saved a score for a game created (sending data to the API).
+arrow functions used instead of the function keyword.
+i used async and await JavaScript features to consume the API.
+
 **[Leaderboard]**
 
 ## 🛠 Built With <a name="built-with"></a>
