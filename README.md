@@ -153,6 +153,14 @@ Ikechukwu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+  ## 🔭 Future Features <a name="future-features"></a>
+
+  >  adding the css styles to make the design look good.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
