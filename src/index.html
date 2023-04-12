@@ -17,30 +17,17 @@
       <aside class="col-6">
         <div class="d-flex align-items">
           <h3 class="mr-3">Recent scores</h3>
-          <button class="btn">Refresh</button>
+          <button class="btn refresh">Refresh</button>
         </div>
-        <ul>
-          <li>
-            first table
-            <span>45</span>
-          </li>
-          <li>
-            first table
-            <span>45</span>
-          </li>
-          <li>
-            first table
-            <span>45</span>
-          </li>
-        </ul>
+        <ul class="show-scores"></ul>
       </aside>
 
       <div class="col-6">
         <h3>Add your score</h3>
-        <form action="">
+        <form action="" class="createScore">
           <input type="text" placeholder="Your name" name="yourname">
           <input type="number" placeholder="Your score" name="yourscore">
-          <button class="btn float-right">Submit</button>
+          <button class="btn float-right" type="submit">Submit</button>
         </form>
       </div>
 
